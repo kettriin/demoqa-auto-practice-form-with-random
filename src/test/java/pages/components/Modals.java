@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
 public class Modals {
-    private SelenideElement
+    private final SelenideElement
             containerWithModal = $(".modal-content"),
             headerModal = $("#example-modal-sizes-title-lg"),
             tableWithData = $(".table-responsive");
